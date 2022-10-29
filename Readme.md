@@ -12,12 +12,17 @@ Missing variable is:
 CMAKE_OBJC_CREATE_STATIC_LIBRARY
 ````
 
+For example, see https://github.com/pthom/cmake_objc_issue/actions/runs/3352742058/jobs/5555084789
+
 
 ## Tree
 This repository is a minimal demonstration repo, with the following content:
 
 ````
 .
+├── .github
+│   └── workflows
+│       └── build.yml       # A workflow that demonstrates the error on github CI
 ├── CMakeLists.txt
 ├── Readme.md
 ├── lib1
